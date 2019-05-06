@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		318FFE1B1D7703A700AADE63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 318FFE1A1D7703A700AADE63 /* main.m */; };
+		318FFE1E1D7703A700AADE63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 318FFE1D1D7703A700AADE63 /* AppDelegate.m */; };
+		318FFE271D7703A700AADE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318FFE251D7703A700AADE63 /* Main.storyboard */; };
+		318FFE291D7703A700AADE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318FFE281D7703A700AADE63 /* Assets.xcassets */; };
+		318FFE2C1D7703A700AADE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318FFE2A1D7703A700AADE63 /* LaunchScreen.storyboard */; };
+		8F50EDEF21E5F22F00B72E6C /* QMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F50EDEE21E5F22F00B72E6C /* QMapKit.framework */; };
+		8F50EDF121E5F23600B72E6C /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F50EDF021E5F23600B72E6C /* QMapKit.bundle */; };
+		8F50EDF721E5F27800B72E6C /* EntryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EDF321E5F27800B72E6C /* EntryData.m */; };
+		8F50EDF821E5F27800B72E6C /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EDF421E5F27800B72E6C /* EntryViewController.m */; };
+		8F50EDFD21E5F40400B72E6C /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EDFC21E5F40400B72E6C /* BaseMapViewController.m */; };
+		8F50EE0021E5F6C700B72E6C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F50EDFF21E5F6C700B72E6C /* libc++.tbd */; };
+		8F50EE0521E5F7C300B72E6C /* AnnotationAnimatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EE0421E5F7C300B72E6C /* AnnotationAnimatorViewController.m */; };
+		8F50EE0B21E6E95E00B72E6C /* TNKNavigationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F50EE0A21E6E95E00B72E6C /* TNKNavigationKit.framework */; };
+		8F50EE0D21E6E96700B72E6C /* TencentNavigationKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F50EE0C21E6E96700B72E6C /* TencentNavigationKit.bundle */; };
+		8F50EE1021E6F70800B72E6C /* TrafficPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EE0E21E6F70800B72E6C /* TrafficPolyline.m */; };
+		8F50EE1221E6F93700B72E6C /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F50EE1121E6F93700B72E6C /* WebP.framework */; };
+		8F50EE1521E72A4000B72E6C /* map_icon_driver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F50EE1321E72A3F00B72E6C /* map_icon_driver@3x.png */; };
+		8F50EE1621E72A4000B72E6C /* map_icon_driver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F50EE1421E72A4000B72E6C /* map_icon_driver@2x.png */; };
+		8F50EE2D21E776C700B72E6C /* CarAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F50EE2C21E776C700B72E6C /* CarAnnotation.m */; };
+		8F9D1C8F227FE6C800AD50E6 /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9D1C8E227FE6C800AD50E6 /* QMapSDKUtils.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		318FFE161D7703A700AADE63 /* QMapSDKUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMapSDKUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		318FFE1A1D7703A700AADE63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		318FFE1C1D7703A700AADE63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		318FFE1D1D7703A700AADE63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		318FFE261D7703A700AADE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		318FFE281D7703A700AADE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		318FFE2B1D7703A700AADE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		318FFE2D1D7703A700AADE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F50EDEE21E5F22F00B72E6C /* QMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapKit.framework; sourceTree = "<group>"; };
+		8F50EDF021E5F23600B72E6C /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		8F50EDF321E5F27800B72E6C /* EntryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryData.m; sourceTree = "<group>"; };
+		8F50EDF421E5F27800B72E6C /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		8F50EDF521E5F27800B72E6C /* EntryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryData.h; sourceTree = "<group>"; };
+		8F50EDF621E5F27800B72E6C /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		8F50EDFB21E5F40400B72E6C /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		8F50EDFC21E5F40400B72E6C /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		8F50EDFF21E5F6C700B72E6C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8F50EE0121E5F6EC00B72E6C /* libQMapSDKUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libQMapSDKUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F50EE0321E5F7C300B72E6C /* AnnotationAnimatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnotationAnimatorViewController.h; sourceTree = "<group>"; };
+		8F50EE0421E5F7C300B72E6C /* AnnotationAnimatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnotationAnimatorViewController.m; sourceTree = "<group>"; };
+		8F50EE0A21E6E95E00B72E6C /* TNKNavigationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TNKNavigationKit.framework; sourceTree = "<group>"; };
+		8F50EE0C21E6E96700B72E6C /* TencentNavigationKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentNavigationKit.bundle; sourceTree = "<group>"; };
+		8F50EE0E21E6F70800B72E6C /* TrafficPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficPolyline.m; sourceTree = "<group>"; };
+		8F50EE0F21E6F70800B72E6C /* TrafficPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficPolyline.h; sourceTree = "<group>"; };
+		8F50EE1121E6F93700B72E6C /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		8F50EE1321E72A3F00B72E6C /* map_icon_driver@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_icon_driver@3x.png"; sourceTree = "<group>"; };
+		8F50EE1421E72A4000B72E6C /* map_icon_driver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_icon_driver@2x.png"; sourceTree = "<group>"; };
+		8F50EE2B21E776C700B72E6C /* CarAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarAnnotation.h; sourceTree = "<group>"; };
+		8F50EE2C21E776C700B72E6C /* CarAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarAnnotation.m; sourceTree = "<group>"; };
+		8F9D1C8E227FE6C800AD50E6 /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		318FFE131D7703A700AADE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F50EE1221E6F93700B72E6C /* WebP.framework in Frameworks */,
+				8F50EE0B21E6E95E00B72E6C /* TNKNavigationKit.framework in Frameworks */,
+				8F50EE0021E5F6C700B72E6C /* libc++.tbd in Frameworks */,
+				8F50EDEF21E5F22F00B72E6C /* QMapKit.framework in Frameworks */,
+				8F9D1C8F227FE6C800AD50E6 /* QMapSDKUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318F00CF1D77142B00AADE63 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EE1421E72A4000B72E6C /* map_icon_driver@2x.png */,
+				8F50EE1321E72A3F00B72E6C /* map_icon_driver@3x.png */,
+				8F50EE0C21E6E96700B72E6C /* TencentNavigationKit.bundle */,
+				8F50EDF021E5F23600B72E6C /* QMapKit.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		318FFE0D1D7703A700AADE63 = {
+			isa = PBXGroup;
+			children = (
+				318FFE181D7703A700AADE63 /* QMapSDKUtilsDemo */,
+				318FFE171D7703A700AADE63 /* Products */,
+				8F50EDFE21E5F6C600B72E6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		318FFE171D7703A700AADE63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				318FFE161D7703A700AADE63 /* QMapSDKUtilsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		318FFE181D7703A700AADE63 /* QMapSDKUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EDF221E5F26500B72E6C /* Demo */,
+				8F50EDED21E5F16800B72E6C /* Dependency */,
+				318F00CF1D77142B00AADE63 /* Resources */,
+				318FFE1C1D7703A700AADE63 /* AppDelegate.h */,
+				318FFE1D1D7703A700AADE63 /* AppDelegate.m */,
+				318FFE251D7703A700AADE63 /* Main.storyboard */,
+				318FFE281D7703A700AADE63 /* Assets.xcassets */,
+				318FFE2A1D7703A700AADE63 /* LaunchScreen.storyboard */,
+				318FFE2D1D7703A700AADE63 /* Info.plist */,
+				318FFE191D7703A700AADE63 /* Supporting Files */,
+			);
+			path = QMapSDKUtilsDemo;
+			sourceTree = "<group>";
+		};
+		318FFE191D7703A700AADE63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				318FFE1A1D7703A700AADE63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F50EDED21E5F16800B72E6C /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EE0A21E6E95E00B72E6C /* TNKNavigationKit.framework */,
+				8F50EDEE21E5F22F00B72E6C /* QMapKit.framework */,
+				8F9D1C8E227FE6C800AD50E6 /* QMapSDKUtils.framework */,
+				8F50EE1121E6F93700B72E6C /* WebP.framework */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		8F50EDF221E5F26500B72E6C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EDF521E5F27800B72E6C /* EntryData.h */,
+				8F50EDF321E5F27800B72E6C /* EntryData.m */,
+				8F50EDF621E5F27800B72E6C /* EntryViewController.h */,
+				8F50EDF421E5F27800B72E6C /* EntryViewController.m */,
+				8F50EDFB21E5F40400B72E6C /* BaseMapViewController.h */,
+				8F50EDFC21E5F40400B72E6C /* BaseMapViewController.m */,
+				8F50EDF921E5F34E00B72E6C /* AnnotationAnimator */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8F50EDF921E5F34E00B72E6C /* AnnotationAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EE0321E5F7C300B72E6C /* AnnotationAnimatorViewController.h */,
+				8F50EE0421E5F7C300B72E6C /* AnnotationAnimatorViewController.m */,
+				8F50EE0F21E6F70800B72E6C /* TrafficPolyline.h */,
+				8F50EE0E21E6F70800B72E6C /* TrafficPolyline.m */,
+				8F50EE2B21E776C700B72E6C /* CarAnnotation.h */,
+				8F50EE2C21E776C700B72E6C /* CarAnnotation.m */,
+			);
+			path = AnnotationAnimator;
+			sourceTree = "<group>";
+		};
+		8F50EDFE21E5F6C600B72E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F50EE0121E5F6EC00B72E6C /* libQMapSDKUtils.a */,
+				8F50EDFF21E5F6C700B72E6C /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		318FFE151D7703A700AADE63 /* QMapSDKUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 318FFE301D7703A700AADE63 /* Build configuration list for PBXNativeTarget "QMapSDKUtilsDemo" */;
+			buildPhases = (
+				318FFE121D7703A700AADE63 /* Sources */,
+				318FFE131D7703A700AADE63 /* Frameworks */,
+				318FFE141D7703A700AADE63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMapSDKUtilsDemo;
+			productName = QMapSDKUtilsDemo;
+			productReference = 318FFE161D7703A700AADE63 /* QMapSDKUtilsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		318FFE0E1D7703A700AADE63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = tencent;
+				TargetAttributes = {
+					318FFE151D7703A700AADE63 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J57QEZ3JMV;
+					};
+				};
+			};
+			buildConfigurationList = 318FFE111D7703A700AADE63 /* Build configuration list for PBXProject "QMapSDKUtilsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 318FFE0D1D7703A700AADE63;
+			productRefGroup = 318FFE171D7703A700AADE63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				318FFE151D7703A700AADE63 /* QMapSDKUtilsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		318FFE141D7703A700AADE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318FFE2C1D7703A700AADE63 /* LaunchScreen.storyboard in Resources */,
+				8F50EDF121E5F23600B72E6C /* QMapKit.bundle in Resources */,
+				318FFE291D7703A700AADE63 /* Assets.xcassets in Resources */,
+				318FFE271D7703A700AADE63 /* Main.storyboard in Resources */,
+				8F50EE1621E72A4000B72E6C /* map_icon_driver@2x.png in Resources */,
+				8F50EE1521E72A4000B72E6C /* map_icon_driver@3x.png in Resources */,
+				8F50EE0D21E6E96700B72E6C /* TencentNavigationKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		318FFE121D7703A700AADE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318FFE1E1D7703A700AADE63 /* AppDelegate.m in Sources */,
+				8F50EDF821E5F27800B72E6C /* EntryViewController.m in Sources */,
+				318FFE1B1D7703A700AADE63 /* main.m in Sources */,
+				8F50EE2D21E776C700B72E6C /* CarAnnotation.m in Sources */,
+				8F50EE1021E6F70800B72E6C /* TrafficPolyline.m in Sources */,
+				8F50EDFD21E5F40400B72E6C /* BaseMapViewController.m in Sources */,
+				8F50EE0521E5F7C300B72E6C /* AnnotationAnimatorViewController.m in Sources */,
+				8F50EDF721E5F27800B72E6C /* EntryData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		318FFE251D7703A700AADE63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318FFE261D7703A700AADE63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		318FFE2A1D7703A700AADE63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				318FFE2B1D7703A700AADE63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		318FFE2E1D7703A700AADE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		318FFE2F1D7703A700AADE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		318FFE311D7703A700AADE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMapSDKUtilsDemo/Dependency",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
+				INFOPLIST_FILE = QMapSDKUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.map.QMapSDKUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		318FFE321D7703A700AADE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J57QEZ3JMV;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QMapSDKUtilsDemo/Dependency",
+				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../**";
+				INFOPLIST_FILE = QMapSDKUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.map.QMapSDKUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		318FFE111D7703A700AADE63 /* Build configuration list for PBXProject "QMapSDKUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318FFE2E1D7703A700AADE63 /* Debug */,
+				318FFE2F1D7703A700AADE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		318FFE301D7703A700AADE63 /* Build configuration list for PBXNativeTarget "QMapSDKUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318FFE311D7703A700AADE63 /* Debug */,
+				318FFE321D7703A700AADE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 318FFE0E1D7703A700AADE63 /* Project object */;
+}

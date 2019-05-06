@@ -1,0 +1,2 @@
+QMapKit filter=lfs diff=lfs merge=lfs -text
+TNKNavigationKit filter=lfs diff=lfs merge=lfs -text
