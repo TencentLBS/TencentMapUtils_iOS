@@ -1,4 +1,8 @@
 ## TencentMapUtils_iOS 地图组件库 
+
+### 组件库 QMapSDKUtils.framework
+* 目前组件库开放小车平滑移动能力，可在QMUAnnotationAnimator.h中查看。
+
 ### 小车平滑移动组件
 
 	+ (void) translateWithAnnotationView:(QAnnotationView *) annotationView 
