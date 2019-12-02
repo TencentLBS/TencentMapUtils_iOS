@@ -3,6 +3,8 @@
 ## 配置
 这个工具库必须配合腾讯地图 sdk 使用，所以必须在工程中[集成腾讯地图sdk](https://lbs.qq.com/ios_v1/guide-3d.html)。除了腾讯地图 sdk 申请的权限外此组件库不需要额外的权限和配置参数。
 
+地图组件支持范围仅限demo中所示场景，该功能当前不做需求和技术支持，其他诉求等请联系商务。
+
 ### 组件库 QMapSDKUtils.framework
 * 目前组件库开放小车平滑移动能力，可在QMUAnnotationAnimator.h中查看。
 
