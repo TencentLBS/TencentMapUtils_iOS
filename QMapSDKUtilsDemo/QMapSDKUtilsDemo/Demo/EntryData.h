@@ -1,9 +1,9 @@
 //
 //  EntryData.h
-//  QMapSDKUtilsDemo
+//  QMapKitDemoNew
 //
-//  Created by 薛程 on 2018/11/27.
-//  Copyright © 2018年 tencent. All rights reserved.
+//  Created by tabsong on 17/5/11.
+//  Copyright © 2017年 Tencent. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

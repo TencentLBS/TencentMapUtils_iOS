@@ -1,9 +1,9 @@
 //
 //  EntryViewController.m
-//  QMapSDKUtilsDemo
+//  QMapKitDemoNew
 //
-//  Created by 薛程 on 2018/11/27.
-//  Copyright © 2018年 tencent. All rights reserved.
+//  Created by tabsong on 17/5/11.
+//  Copyright © 2017年 Tencent. All rights reserved.
 //
 
 #import "EntryViewController.h"
@@ -30,12 +30,11 @@
     Section *sectionData = self.entry.sections[indexPath.section];
     Cell *cellData = sectionData.cells[indexPath.row];
     
-    // 该Demo 暂不支持.
+    // 该 Demo 暂不支持.
     if (cellData.disabled) return;
     
     BaseMapViewController *controller = [[NSClassFromString(cellData.controllerClassName) alloc] init];
     
-    controller.edgesForExtendedLayout = UIRectEdgeBottom;
     controller.title = cellData.title;
     
     [self.navigationController pushViewController:controller animated:YES];
@@ -117,6 +116,8 @@
     return 60;
 }
 
+#pragma mark - Setup
+
 - (void)setupTableView
 {
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -127,10 +128,13 @@
     [self.view addSubview:self.tableView];
 }
 
+#pragma mark - Life Cycle
+
 - (instancetype)init
 {
-    if(self = [super init])
+    if (self = [super init])
     {
+        // 构建 tableView 对应的数据结构.
         self.entry = [EntryData constructDefaultEntryData];
     }
     
@@ -145,27 +149,5 @@
     
     [self setupTableView];
 }
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    
-    [self.navigationController setToolbarHidden:YES animated:animated];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

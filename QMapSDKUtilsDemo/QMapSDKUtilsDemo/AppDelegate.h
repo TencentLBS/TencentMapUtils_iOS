@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  QMapSDKUtilsDemo
+//  QMapScenarioDemo
 //
-//  Created by fan on 16/8/31.
-//  Copyright © 2016年 tencent. All rights reserved.
+//  Created by Zhang Tian on 2019/9/20.
+//  Copyright © 2019 Tencent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
